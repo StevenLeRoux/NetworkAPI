@@ -18,3 +18,13 @@ Example :
 GET /ip/10.0.42.1/vlan
 => vlan42
 ```
+
+## Todo
+
+For now you have to process a cisco config file using ```python convert.py cisco.conf``` which produce a vlan.py loaded as a module.
+
+A better version should be able to :
+ * handle more than one config file
+ * handle environnement (VRF, prod/uat, etc...)
+ * ...
+
